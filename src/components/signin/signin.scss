@@ -1,31 +1,21 @@
-.signin {
-    display: block;
-    justify-content: end;
-    width: 400px;
-    max-width: 40.0rem;
-    margin: 4rem auto 6rem;
-    border: 1px solid #000;
-
-    .wrap {
-        padding: 10px;
-        
-        h2 {
-            font-size: .7rem;
-            line-height: 1;
-            font-weight: 400;
-            text-transform: uppercase;
-            text-align: center;
-            display: block;
-            width: 100%;
-            padding: 0;
-            margin: 0 auto;
-        }
-        .socialSignin { 
-            margin: 0.3rem auto 0;
-            h2 {
-                padding-bottom: 10px ;
-                font-size: 0.5rem;
-            }
-        }
+.socialSignin { 
+    margin: 1rem auto 0;
+    .row {
+    margin: 1rem auto 0;
+ 
+    h2 {
+        font-size: 0.5rem;
+        margin-bottom: 1rem;
     }
+    }        
 }
+.links {
+    display: block;
+    width: 100%;
+    margin: 0.2rem auto 0;
+    a {
+    color: #000;
+    font-size: 0.7rem;
+  }
+}
+        

@@ -6,6 +6,7 @@ import Homepage from './components/pages/homepage/Homepage';
 import Login from './components/pages/login/Login';
 
 import { auth, handleUserProfile } from './firebase/utils'
+import Recovery from './components/pages/recovery/Recovery';
 
 const initialState = {
   currentUser: null
@@ -51,6 +52,7 @@ componentWillUnmount() {
                 <Route exact path="/" component={Homepage}/> 
                 <Route path="/registration" component={Registration}/>
                 {currentUser ? <Redirect to="/"/> : <Route path="/login" component={Login} />}
+                <Route path="/recovery" component={Recovery}/>
             </MainLayout>    
           </Switch>
       </div>
