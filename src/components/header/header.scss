@@ -1,0 +1,59 @@
+.header {
+    height: 2.5rem;
+    box-shadow: 0 2px 4px 1px rgba(0,0, 0, 0.2);
+}
+
+.wrap {
+    position: relative;
+    max-width: 1410px;
+    margin: 0 auto;
+    .logo {
+        display: inline;
+        width: 6rem;
+        position: absolute;
+        top: 50%; left: 3%;
+        transform: translateY(22%);
+        -moz-transform: translateY(22%);
+        -webkit-transform: translateY(22%);
+    }
+    img {
+        display: block;
+        width: 100%;
+        margin: 0;        
+    }
+    .callToActions {
+
+        position: absolute;
+        top: 10%; right: 50px;
+        transform: translateY(5%);
+        -moz-transform: translateY(5%);
+        -webkit-transform: translateY(5%);
+        ul, li {
+            margin: 0;
+            padding: 0;
+            margin-right: 20px;
+            &:last-child {
+                margin: 0;
+            }
+        }
+        li {
+            display: inline-block;
+            list-style-type: none;
+        
+            
+            a {
+               
+                text-decoration: none;
+                text-transform: uppercase; 
+                font-size: .65rem;
+                color: black;
+                
+            }
+        }
+   
+       
+    }
+}
+
+
+
